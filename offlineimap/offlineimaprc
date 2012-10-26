@@ -1,0 +1,22 @@
+[general]
+ui = ttyui
+accounts = Gmail
+
+[Account Gmail]
+localrepository = Gmail-Local
+remoterepository = Gmail-Remote
+
+[Repository Gmail-Local]
+type = Maildir
+localfolders = ~/mail/GMail
+
+[Repository Gmail-Remote]
+type = Gmail
+remoteuser = ja@px.io
+remotepass = xxx
+realdelete = no
+maxconnections = 3
+
+# newer offlineimap needs this
+#cert_fingerprint = f3043dd689a2e7dddfbef82703a6c65ea9b634c1
+sslcacertfile = /etc/ssl/certs/ca-certificates.crt
