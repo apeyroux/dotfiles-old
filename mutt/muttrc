@@ -48,11 +48,11 @@ unignore from: to: cc: date: subject:                   # show only these
 hdr_order from: to: cc: date: subject:                  # and in this ordero
 
 # options
-set mbox_type   = Maildir               # mailbox type
-set folder      = ~/mail/GMail          # root folder
-set spoolfile   = "+INBOX"              # inbox
-set mbox        = "+archive"            # [Gmail]/All Mail
-set postponed   = "[Gmail]/drafts"             # [Gmail]/Drafts
+#set mbox_type   = Maildir               # mailbox type
+#set folder      = ~/mail/GMail          # root folder
+#set spoolfile   = "+INBOX"              # inbox
+#set mbox        = "+archive"            # [Gmail]/All Mail
+#set postponed   = "[Gmail]/drafts"             # [Gmail]/Drafts
 unset record                            # required to prevent duplicates in Sent
 
 set sendmail    = "/usr/bin/msmtp" # use msmtp 'default' account
