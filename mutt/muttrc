@@ -48,8 +48,8 @@ unignore from: to: cc: date: subject:                   # show only these
 hdr_order from: to: cc: date: subject:                  # and in this ordero
 
 # options
-#set mbox_type   = Maildir               # mailbox type
-#set folder      = ~/mail/GMail          # root folder
+set mbox_type   = Maildir               # mailbox type
+set folder      = ~/Mail          # root folder
 #set spoolfile   = "+INBOX"              # inbox
 #set mbox        = "+archive"            # [Gmail]/All Mail
 #set postponed   = "[Gmail]/drafts"             # [Gmail]/Drafts
