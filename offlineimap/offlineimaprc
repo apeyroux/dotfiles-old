@@ -1,5 +1,6 @@
 [general]
-ui = ttyui
+#ui = ttyui
+ui = TTY.TTYUI
 accounts = Gmail
 
 [Account Gmail]
@@ -8,12 +9,12 @@ remoterepository = Gmail-Remote
 
 [Repository Gmail-Local]
 type = Maildir
-localfolders = ~/mail/GMail
+localfolders = ~/Mail/
 
 [Repository Gmail-Remote]
 type = Gmail
 remoteuser = ja@px.io
-remotepass = xxx
+remotepass = wedqplywdbrvejee
 realdelete = no
 maxconnections = 3
 
