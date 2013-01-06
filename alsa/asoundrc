@@ -6,6 +6,7 @@ pcm.!default {
     type hw
     card DACE17
 }
+
 ctl.!default {
     type hw
     card DACE17
