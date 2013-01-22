@@ -4,7 +4,7 @@
 #feh --bg-scale /usr/share/archlinux/wallpaper/archlinux-simplyblack.png
 synclient TouchpadOff=1
 xsetroot -cursor_name left_ptr
-xrdb -merge ~/.Xresources
+#xrdb -merge ~/.Xresources
 xbindkeys
-exec xmonad
-#exec i3
+#exec xmonad
+exec i3
