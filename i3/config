@@ -141,12 +141,20 @@ bar {
         status_command i3status
 	mode hide
 	modifier Mod4
+	colors {
+        	background #000000
+        	statusline #ffffff
+		focused_workspace  #99FFFF #99CCFF #CC0033
+        	active_workspace   #333333 #5f676a #ffffff
+        	inactive_workspace #333333 #222222 #888888
+        	urgent_workspace   #2f343a #900000 #ffffff
+    	}
 }
 
 ##### COLOR
 
 # class                 
-client.focused          #FF99FF #FF00FF #ffffff #F5DA81
+client.focused          #FFCCCC #FF3366 #000000 #FFFF99
 client.focused_inactive #333333 #5f676a #ffffff #484e50
 client.unfocused        #333333 #222222 #888888 #292d2e
 client.urgent           #2f343a #900000 #ffffff #900000
